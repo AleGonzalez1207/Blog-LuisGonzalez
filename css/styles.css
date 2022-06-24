@@ -227,6 +227,8 @@
 }
 
 
+    
+
 
 
 @media (max-width: 605px){
@@ -239,7 +241,27 @@
         flex-direction: column;
     }
 }
-
+@media (min-width:756px){
+    .main{
+        flex-direction: row;
+    }
+    .footer{
+        margin-top: 40px;
+    }
+    .imgPrincipal{
+        width: 500px;
+        height: 250px;
+    }
+    .tarjetas{
+        flex-direction: row;
+    }
+}
+@media (min-width:950px){
+    .imgPrincipal{
+        width: 500px;
+        height: 350px;
+    }
+}
 
 
 
