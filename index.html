@@ -6,66 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRESENTACION</title>
-    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="container-fluid">
     <div class="contenedor">
-        <header class="header" >
-            <img src="./imagenes/Letra.png" alt="logo principal">
-            <nav class="navbar" >
-                <ul>
-                    <li><a href="index.html" class="btn1">Inicio</a></li>
-                    <li><a href="galeria de experiencias.html" class="btn1">Galeria</a></li>
-                    <li><a href="Formulario.html" class="btn1">Formulario</a></li>
-                    <li><a href="comentario.html" class="btn1">Comentario</a></li>
-                    <li><a href="contacto.html" class="btn1">Contacto</a></li>
-                </ul>
+        <header class="header row justify-content-around m-0 " >
+            <div class=" row col-9 col-md-2 justify-content-center"><img src="./imagenes/Letra.png" alt="logo principal" class=" "></div>
+                <nav class="navbar navbar-expand-lg  col-12 col-md-10 justify-content-center ">
+                    <div class="container-fluid ">
+                      <a class="navbar-brand" href="index.html">Menu</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          
+                          <li class="nav-item">
+                            <a class="nav-link" href="galeria de experiencias.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Formulario.html">Formulario</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="comentario.html">Comentario</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                
                 <div></div>
-            </nav>
+
         </header>
-        <main class="main">
+        <main class="main row align-items-center justify-content-center">
             
-        <div class="parrafos" >
-            <H2>SOBRE MI</H2>
+        <div class="parrafos  col-11 col-md-3 ms-2  col-md-7" >
+            <H2 class="mt-5 row justify-content-center">SOBRE MI</H2>
             <div>
-                <p class="p1">Hola me llamo Alejandro y quiero presentarles mi primer pagina web,en este Blog habran
+                <p class="p1 mx-1 col-11 col-md-10 mt-5 justify-content-center">Hola me llamo Alejandro y quiero presentarles mi primer pagina web,en este Blog habran
                     alguna informacion acerca de lo que se va aprendiendo en el curso y unas cosas interesantes para
                     conocer sobre mi. </p>
             </div>
-            <div ><a href="./galeria de experiencias.html" class="btn2">
+            <div class="mt-4 col-3"><a href="./galeria de experiencias.html" class="btn2 ">
                     <p>Ver mas</p>
                 </a>
             </div>
 
         </div>
-        <div class="imgPrincipal"></div>
+        <div class="imgPrincipal  col-11 col-md-4 row align-items-center"></div>
             <!-- <IMG src="imagenes/MIA.gif" alt="" > -->
 
         </main>
-        <aside class="aside" >
+        <aside class="aside pt-5 text-center " >
         <div>
-            <h3>
+            <h5 >
                 <p>¿Te gustaria responder unas preguntas?</p>
             </h3>
         </div>
-        <a class="btn3" href="Formulario.html" type="button" value="si">
-            <p>Si</p>
-        </a>
+        <div class="p-2">
+            <a class="btn3 " href="Formulario.html" type="button" value="si">
+                <p>Si</p>
+            </a>
+        </div>
+        
     </aside>
 
 
-        <footer class="footer" >
-            <ul class="redesSociales">
-                <li><a href="https://www.facebook.com/alejandro.gonzalez.94617999/">Facebook</a></li>
-                <li><a href="https://www.instagram.com/ale_gonzalez1207/">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/luis-alejandro-gonz%C3%A1lez-morales-904314223/">Linkedln</a>
+        <footer class="footer   m-0" >
+            <ul class="redesSociales row p-3 justify-content-around">
+                <li class="col-4"><a href="https://www.facebook.com/alejandro.gonzalez.94617999/">Facebook</a></li>
+                <li class="col-4"><a href="https://www.instagram.com/ale_gonzalez1207/">Instagram</a></li>
+                <li class="col-4"><a href="https://www.linkedin.com/in/luis-alejandro-gonz%C3%A1lez-morales-904314223/">Linkedln</a>
                 </li>
             </ul>
         </footer>
     </div>
-    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
